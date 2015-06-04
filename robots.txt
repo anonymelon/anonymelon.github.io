@@ -1,4 +1,4 @@
 User-agent: *
 Disallow: 
 
-Sitemap: http://anonymelon.com/sitemap.xml 
+Sitemap: http://anonymelon.github.io/sitemap.xml 

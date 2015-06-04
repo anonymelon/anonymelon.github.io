@@ -2,15 +2,34 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[anonymelon's Blog]]></title>
-  <link href="http://anonymelon.com/atom.xml" rel="self"/>
-  <link href="http://anonymelon.com/"/>
-  <updated>2015-06-03T22:05:15+08:00</updated>
-  <id>http://anonymelon.com/</id>
+  <link href="http://anonymelon.github.io/atom.xml" rel="self"/>
+  <link href="http://anonymelon.github.io/"/>
+  <updated>2015-06-04T22:48:22+08:00</updated>
+  <id>http://anonymelon.github.io/</id>
   <author>
     <name><![CDATA[anonymelon]]></name>
     
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[About Me]]></title>
+    <link href="http://anonymelon.github.io/blog/2015/06/03/about-me/"/>
+    <updated>2015-06-03T23:27:39+08:00</updated>
+    <id>http://anonymelon.github.io/blog/2015/06/03/about-me</id>
+    <content type="html"><![CDATA[<p>  Web后台Dev, 主攻脚本方向，熟悉linux，喜欢命令行，现以Rails谋生，正准备被前端折腾中。</p>
+
+<p>  搞过自动化测试，折腾过自动化部署，脑子里想着怎么通过自动化偷懒。。</p>
+
+<p>  写过python, 用过node, 发现还是对ruby情有独钟。经常大脑洞开，喜欢折腾。</p>
+
+<p>  工作3年，只是想好好地码代码，开开心心的吃喝玩乐，单线程生物。</p>
+
+<h1>Email</h1>
+
+<p>  anonymelon#163.com</p>
+]]></content>
+  </entry>
   
 </feed>
