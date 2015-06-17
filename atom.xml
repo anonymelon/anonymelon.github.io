@@ -4,7 +4,7 @@
   <title><![CDATA[anonymelon's Blog]]></title>
   <link href="http://anonymelon.github.io/atom.xml" rel="self"/>
   <link href="http://anonymelon.github.io/"/>
-  <updated>2015-06-05T00:01:46+08:00</updated>
+  <updated>2015-06-17T23:09:01+08:00</updated>
   <id>http://anonymelon.github.io/</id>
   <author>
     <name><![CDATA[anonymelon]]></name>
@@ -33,8 +33,8 @@
 <li><a href="https://chrome.google.com/webstore/detail/onetab/chphlpgkkbolifaimnlloiipkdnihall">OneTab</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/rss-feed-reader/pnjaodmkngahhkoihejjehlcdlnohgmp">RSS Feed Reader</a></li>
 <li><a href="https://chrome.google.com/webstore/detail/xmarks-bookmark-sync/ajpgkpeckebdhofmmjfgcjjiiejpodla">Xmarks Bookmark Sync</a></li>
-<li><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif">有道词典Chrome划词插件</a></li>
-<li><a href="https://github.com/FelisCatus/SwitchyOmega">Proxy SwitchyOmega</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8chrome%E5%88%92%E8%AF%8D%E6%8F%92%E4%BB%B6/eopjamdnofihpioajgfdikhhbobonhbb">有道词典Chrome划词插件</a></li>
+<li><a href="https://chrome.google.com/webstore/detail/proxy-switchyomega/padekgcemlokbadohgkifijomclgjgif">Proxy SwitchyOmega</a></li>
 </ul>
 
 
@@ -42,90 +42,91 @@
 
 <p>  不想看乱七八糟的广告页面，弹出框，视频广告，这个插件还是挺好用的</p>
 
-<p>下载：TBD</p>
+<p>下载：<a href="http://7xjsu6.dl1.z0.glb.clouddn.com/adblock-plus.crx">adblock-plus.crx</a></p>
 
 <h2>AngularJS Batarang (Stable)</h2>
 
 <p>  AngularJS 开发工具，能够深入到每个scope中，很好的AngularJS Debug工具。（最新的AngularJS Batarang好像有问题，所以现在stable版本比较好用）</p>
 
-<p>下载：TBD</p>
+<p>下载：<a href="http://7xjsu6.dl1.z0.glb.clouddn.com/angularjs-batarang-stable.crx">angularjs-batarang-stable.crx</a></p>
 
 <h2>Clear Cache</h2>
 
 <p>  Web开发经常遇到cache问题，这个插件可以设置强行清除页面cache，还可以配置是否清cookies，重现reload页面，可以当做第二个reload button使用。</p>
 
-<p>下载：TBD</p>
+<p>下载：<a href="http://7xjsu6.dl1.z0.glb.clouddn.com/clear-cache.crx">clear-cache.crx</a></p>
 
 <h2>Context Menu Search</h2>
 
 <p>  这个插件在右键菜单中添加选项，让你可以在选中内容时选择用各种不同的搜索引擎搜索，比如百度，google，yahoo，bing，等等，翻墙时用google，翻不过去的时候bing，实在不行再百度。。方便切换而不用自己去设置里切换搜索引擎。</p>
 
-<p>下载：TBD</p>
+<p>下载：<a href="http://7xjsu6.dl1.z0.glb.clouddn.com/context-menu-search.crx">context-menu-search.crx</a></p>
 
 <h2>Cookies</h2>
 
 <p>  查看，修改，清除Cookies的好工具，掉坑的时候用它会比较爽。</p>
 
-<p>下载：TBD</p>
+<p>下载：<a href="http://7xjsu6.dl1.z0.glb.clouddn.com/cookies.crx">cookies.crx</a></p>
 
 <h2>Full Page Screen Capture</h2>
 
 <p>  当一个页面很长，你需要把整个页面截图下来的时候，点它就好了，方便好用</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/full-page-screen-capture.crx">full-page-screen-capture.crx</a></p>
 
 <h2>Ghostery</h2>
 
 <p>  作为Web Dev肯定知道上网是会被跟踪的，用这个可以看你要访问的网站有没有记录你的行为，可以让世界清静些。不想被分析了推荐买东西，这个可以帮忙，虽然不是绝对。</p>
 
-<p> 下载： TBD</p>
+<p> 下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/ghostery.crx">ghostery.crx</a></p>
 
 <h2>Give Me CRX</h2>
 
 <p>  Chrome插件是个.crx文件，怎么把你喜欢的插件弄下来，分享给别人，假设他翻不了墙的话，这个插件可以去appstore上面把插件抓下来，这里所有的插件都是这么下来的。什么时候能直接上google了才是对生产力最大的提高。。</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/give-me-crx.crx">give-me-crx.crx</a></p>
 
 <h2>JSONView</h2>
 
 <p>  服务器返回的json数据没法看，安个这个世界就清静了，json是个好东西，js也是。同样有个xmlview，也是好东西</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/jsonview.crx">jsonview.crx</a></p>
 
 <h2>OneTab</h2>
 
 <p>  这个插件是多tab使用者的福音，对于我这种经常Chrome开3个窗口，每个窗口20多个tab的人来说太有用了。Chrome吃内存众所周知，内存不够用的时候点下这个，一个窗口的所有tab被关掉了，然后下次还可以打开，在需要时各种方便。</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/onetab.crx">onetab.crx</a></p>
 
 <h2>RSS Feed Reader</h2>
 
 <p>  这个对于信息的通知很有用，用github来说，假设有人提交了代码，它会给你通知，然后你可以去看谁提交了什么改动，及时性比较高。当然，这个主要还是用来订阅博客的</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/rss-feed-reader.crx">rss-feed-reader.crx</a></p>
 
 <h2>Xmarks Bookmark Sync</h2>
 
 <p>  Google上不去的时候怎么同步书签，用这个可以解决不少问题，可以指定家里，工作的电脑上书签的同步，在不同机器上开了哪些tab，各种方便回家加班用，同步一下，回家继续干活吧。。</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/xmarks-bookmark-sync.crx">xmarks-bookmark-sync.crx</a></p>
 
 <h2>有道词典Chrome划词插件</h2>
 
 <p>  有道自己开发的，对看英文是个福利</p>
 
-<p>下载： TBD</p>
+<p>下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/%E6%9C%89%E9%81%93%E8%AF%8D%E5%85%B8Chrome%E5%88%92%E8%AF%8D%E6%8F%92%E4%BB%B6.crx">有道词典Chrome划词插件.crx</a></p>
 
 <h2>Proxy SwitchyOmega</h2>
 
 <p> SwitchySharp的升级版，翻墙越狱神器，加上了未加载资源的检测，好用到爆，放上github地址 <a href="https://github.com/FelisCatus/SwitchyOmega">FelisCatus/SwitchyOmega</a>，去点个星吧，非常感谢作者。
  顺便传份自己的备份文件，翻墙一步到位</p>
 
-<p> 下载： TBD</p>
+<p> 下载： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/proxy-switchyomega.crx">proxy-switchyomega.crx</a>
+ 备份文件： <a href="http://7xjsu6.dl1.z0.glb.clouddn.com/OmegaOptions.bak">OmegaOptions.bak</a></p>
 
-<p> # 后记</p>
+<h2>后记</h2>
 
-<p>  下载的文件还没整理好，等会把上传到cdn的自动化脚本写好了一起加上，能偷懒的尽量偷懒。不定期更新中</p>
+<p>  熟悉和使用工具是提高效率的有效方式</p>
 
 <p>转载请注明出处： anonymelon</p>
 ]]></content>
