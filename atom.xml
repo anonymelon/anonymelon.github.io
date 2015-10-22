@@ -4,7 +4,7 @@
   <title><![CDATA[anonymelon's Blog]]></title>
   <link href="http://anonymelon.github.io/atom.xml" rel="self"/>
   <link href="http://anonymelon.github.io/"/>
-  <updated>2015-06-17T23:09:01+08:00</updated>
+  <updated>2015-10-23T00:12:10+08:00</updated>
   <id>http://anonymelon.github.io/</id>
   <author>
     <name><![CDATA[anonymelon]]></name>
@@ -12,6 +12,42 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Rails Assets Pipeline Bug小记]]></title>
+    <link href="http://anonymelon.github.io/blog/2015/10/23/rails-assets-pipeline-bug-record/"/>
+    <updated>2015-10-23T00:08:39+08:00</updated>
+    <id>http://anonymelon.github.io/blog/2015/10/23/rails-assets-pipeline-bug-record</id>
+    <content type="html"><![CDATA[<p>前段时间在用Rails部署生产环境时遇到一个诡异的情况，在生产环境的集群下面每台机器build出来的assets摘要（digest）后缀不一样，这导致了在loadbalance访问时随机出现assets 404 的情况。</p>
+
+<p>经过debug后发现是由于一个第三方的前端类库（<a href="https://github.com/pitr/angular-rails-templates">angular-rails-templates</a>）在做assets pipeline的时候根据项目的path改了<code>Rails.application.config.assets.version</code>，这导致只要项目的path不一样算出来的asset version都不一样。而asset version是用来计算所有assets的digest后缀的key。</p>
+
+<p>在我们生产集群环境中的每个project root path都不一样（根据自动化部署的时间），所以每台机器经过assets pipeline打出来的assets后缀也都不同了。（Rails assets pipeline是个坑？也许。。）</p>
+
+<p>我们总是在挖坑填坑中积累经验，所以在debug期间研究了一下Rails做assets pipeline的过程，简单记录一下。</p>
+
+<h2>Rails.application.assets.digest</h2>
+
+<p>在development环境下<code>Rails.application.assets</code>是一个<code>Sprockets::Environment</code>对象（关于<a href="https://github.com/sstephenson/sprockets">Sprockets</a>），但是在production环境下面，<code>Rails.application.assets</code>确是一个<code>Sprockets::Index</code>对象（虽然都继承自<code>Base</code>但需要继续研究为什么），里面几乎包含了Rails所需要的所有assets信息。虽然对象不一样，但是都有一个<code>digest</code>方法（来自<code>Sprockets::Base</code>），能够拿到一个经过SHA1或者MD5算过的digest。这个digest会用来计算之后所有assets的digest后缀。
+而这个<code>Rails.application.assets.digest</code>是根据<code>Rails.application.config.assets.version</code>计算出来的。</p>
+
+<h2>总结</h2>
+
+<p>废话了这么多，简单用个过程表示吧：</p>
+
+<figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+</pre></td><td class='code'><pre><code class=''><span class='line'>::Rails环境准备
+</span><span class='line'>    --&gt; 计算Rails.application.config.assets.version
+</span><span class='line'>        --&gt; 通过version计算Rails::application.assets.digest
+</span><span class='line'>            --&gt; 通过digest计算assets digest后缀</span></code></pre></td></tr></table></div></figure>
+
+
+<p>在这期间还有很多复杂的过程，这里只是简单做过记录。</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[可以提高生产力的Chrome插件(带安装文件)]]></title>
